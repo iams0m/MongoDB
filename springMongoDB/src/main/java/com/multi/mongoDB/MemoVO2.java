@@ -2,7 +2,7 @@ package com.multi.mongoDB;
 
 import java.util.Date;
 
-public class MemoVO {
+public class MemoVO2 {
 
 	private String _id;
 	//private String memoId;
@@ -19,6 +19,14 @@ public class MemoVO {
 //		return memoId;
 //	}
 
+//	public String get_id() {
+//		return _id;
+//	}
+//
+//	public void s et_id(String _id) {
+//		this._id = _id;
+//	}
+
 	public String get_id() {
 		return _id;
 	}
@@ -27,6 +35,7 @@ public class MemoVO {
 		this._id = _id;
 	}
 
+	
 	public String getName() {
 		return name;
 	}
